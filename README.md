@@ -72,7 +72,30 @@ First off, you're awesome for wanting to contribute. Second, please take a secon
 - A link to your site is **not** a reduced test case.
 - A [JSBin](http://jsbin.com/) or [CodePen](http://codepen.io) is preferred so we can help you fix an error.
 
-## License
+## Developers
+
+Clone, build and set watch which will re-build both dev and production-ready
+files on source code changes:
+
+```
+git clone https://github.com/charlespeters/thunder.js.git thunder && cd $_
+npm install
+gulp
+```
+
+Only build unminified file at `dist/thunder.js`:
+
+```
+gulp webpack
+```
+
+Only build production ready file at `dist/thunder.min.js`:
+
+```
+gulp build
+```
+
+## Licence
 
 MIT
 
