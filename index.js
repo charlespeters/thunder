@@ -1,4 +1,4 @@
-var Modernizr = require('./modernizr-custom');
+var Modernizr = require('./src/modernizr-custom');
 var Thunder = require('./src/thunder-images');
 
 if (!Modernizr.webp) {

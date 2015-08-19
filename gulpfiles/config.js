@@ -10,21 +10,23 @@ module.exports = {
   modernizr: {
     src: [
       'index.js',
-      'src/**/*.js'
+      'src/**/*.js',
+      '!src/modernizr-custom.js'
     ],
     customizr: {
       options: [
         "addTest"
       ]
     },
-    dest: '.',
+    dest: 'src',
     filename: 'modernizr-custom.js'
   },
 
   jshint: {
     src: [
       'index.js',
-      'src/**/*.js'
+      'src/**/*.js',
+      '!src/modernizr-custom.js'
     ]
   },
 
