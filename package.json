@@ -20,6 +20,14 @@
   },
   "homepage": "https://github.com/charlespeters/thunder.js#readme",
   "devDependencies": {
-    "webpack": "^1.11.0"
+    "gulp": "^3.9.0",
+    "gulp-jshint": "^1.8.5",
+    "gulp-modernizr": "0.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-size": "^2.0.0",
+    "gulp-uglify": "^1.2.0",
+    "jshint-stylish": "^1.0.0",
+    "require-dir": "^0.1.0",
+    "webpack-stream": "^2.1.0"
   }
 }
